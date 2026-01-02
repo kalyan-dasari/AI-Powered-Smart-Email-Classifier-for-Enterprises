@@ -72,7 +72,8 @@ def main():
     # Save final dataset
     df.to_csv("data/final_emails_dataset.csv", index=False)
 
-    print("✅ Final preprocessed dataset created successfully!")
+    print("✅ Final preprocessed dataset created successfully!") #for verifiying whether program ran successfully
 
 if __name__ == "__main__":
     main()
+
