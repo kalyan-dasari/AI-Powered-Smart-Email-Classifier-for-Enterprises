@@ -1,12 +1,13 @@
-📧 Intelligent Email Classification & Urgency Detection System
-📖 Project Overview
+**📧 AI-Powered-Smart-Email-Classifier-for-Enterprises**
+
+**📖 Project Overview**
 
 This project is developed as part of the Springboard Internship Program.
 The goal is to build an intelligent system that can automatically classify incoming emails into meaningful categories and detect their urgency level, enabling faster and more efficient handling of enterprise email workflows.
 
 The system uses Natural Language Processing (NLP) and Machine Learning techniques to process raw email data and generate actionable insights.
 
-🎯 Objectives
+**🎯 Objectives**
 
 Automate email categorization to reduce manual effort
 
@@ -16,7 +17,7 @@ Build a scalable and enterprise-ready NLP pipeline
 
 Develop reliable baseline ML models for real-world use cases
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Programming Language: Python
 
@@ -53,9 +54,9 @@ Version Control: Git & GitHub
 ├── README.md
 ├── LICENSE
 
-🚀 Milestone Progress
-✅ Milestone 1: Data Collection & Preprocessing
+**🚀 Milestone Progress**
 
+**✅ Milestone 1: Data Collection & Preprocessing**
 Objective: Prepare a clean, labeled dataset for training
 
 Key Work Done:
@@ -84,11 +85,11 @@ Irregular delimiters and noisy enterprise data
 
 Final cleaned dataset stored in CSV format for direct use in training pipelines
 
-📌 Outcome: A robust, enterprise-ready labeled dataset suitable for ML model training 
+📌 **Outcome**: A robust, enterprise-ready labeled dataset suitable for ML model training 
 
 Milestone
 
-✅ Milestone 2: Email Classification Model
+**✅ Milestone 2: Email Classification Model**
 
 Objective: Build a baseline email categorization engine
 
@@ -110,7 +111,7 @@ F1-score
 
 Saved the trained model for future integration
 
-📊 Results:
+**📊 Results:**
 
 Achieved ~86% accuracy
 
@@ -118,9 +119,9 @@ Established a strong baseline for enterprise email classification
 
 Identified scope for future enhancements using transformer models (BERT / DistilBERT)
 
-✅ Milestone 3: Urgency Detection Module
+**✅ Milestone 3: Urgency Detection Module**
 
-Objective: Detect urgency level of incoming emails
+**Objective**: Detect urgency level of incoming emails
 
 Key Work Done:
 
@@ -140,31 +141,154 @@ Confusion Matrix
 
 Improved recall for high-urgency emails using rule-based prioritization
 
-📊 Results:
+**📊 Results:**
 
 Achieved 88% accuracy
 
 Hybrid approach improved reliability in real-world enterprise scenarios
 
-📈 Current Status
 
-✔ Data preprocessing pipeline completed
-✔ Email classification model trained and evaluated
-✔ Urgency detection module implemented
-✔ Models saved and ready for integration
+**✅ Milestone 4: Interactive Dashboard & Deployment**
 
-🔮 Future Work (Milestone 4)
+**Objective**:
+Build an interactive user interface for real-time email classification, visualization, and end-to-end usage demonstration.
 
-End-to-end system integration
+🔧 Key Work Done
+1️⃣ Streamlit-Based Dashboard
 
-API or UI-based email ingestion
+Developed a professional UI using Streamlit that enables:
 
-Model optimization and performance tuning
+✔ Real-time email simulation (paste subject + body)
 
-Real-time email processing
+✔ Automated category & urgency prediction
 
-Deployment-ready architecture
+✔ Hybrid ML + rule-based classification
 
-📜 License
+✔ Dataset visualization through charts & filters
+
+2️⃣ Data Visualization & Filters
+
+**The dashboard includes:**
+
+📊 Bar Chart – Email count by category
+
+🟣 Pie Chart – Urgency distribution
+
+🔍 Filter Controls – Filter by category & urgency in real-time
+
+📄 Filtered Table View – Displays underlying dataset after filters
+
+This enables users to analyze enterprise email patterns visually.
+
+3️⃣ Real-Time Email Classification UI
+
+Users can submit new emails through the UI:
+
+📝 Input fields for:
+
+Subject
+
+Body
+
+**⚙ System performs:**
+
+Text preprocessing
+
+TF-IDF vectorization
+
+ML classification (category)
+
+Hybrid rule-based urgency detection
+
+The outputs are displayed instantly:
+
+Predicted Category
+
+Predicted Urgency
+
+**4️⃣ Environment & Model Integration**
+
+Integrated saved components from previous milestones:
+
+📂 models/email_category_model.pkl
+
+📂 models/urgency_model.pkl
+
+📂 models/tfidf_vectorizer.pkl
+
+These are loaded at runtime to support:
+
+Fast classification
+
+Low-latency inference
+
+Offline operation
+
+**5️⃣ Deployment Setup**
+
+Prepared and deployed dashboard using:
+
+🚀 Streamlit Community Cloud
+
+Supporting Deployments:
+
+Created requirements.txt
+
+Structured config for Streamlit execution
+
+Shared live production link for evaluation
+
+**📊 Results**
+
+✔ Fully functional interactive dashboard
+
+✔ Successful visualization of dataset insights
+
+✔ Real-time category & urgency classification
+
+✔ Zero manual preprocessing needed at runtime
+
+✔ Cloud accessible via shared deployment URL
+
+**🧩 Tech Used in Milestone 4**
+
+Streamlit for UI & deployment
+
+Matplotlib/Plotly for visualization
+
+Pandas for data filtering
+
+Scikit-Learn for ML inference
+
+Joblib for model loading
+
+**📌 Outcome**
+
+Milestone 4 integrates all previous modules into a user-friendly, deployable system suitable for:
+
+🏢 Enterprise demonstration
+
+📈 Internship evaluation
+
+🧪 Production prototyping
+
+**The system now supports:**
+
+✔ End-to-End data flow
+
+✔ UI-based inference
+
+✔ Interactive analytics
+
+✔ Cloud deployment
+
+**🔗 Live Deployment**
+
+Click below to test the deployed dashboard:
+
+https://ai-powered-smart-email-classifier-for-enterprises-aumixxupzdjd.streamlit.app/
+
+**📜 License**
 
 This project is licensed under the MIT License.
+
