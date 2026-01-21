@@ -40,19 +40,9 @@ TF-IDF Vectorization
 Version Control: Git & GitHub
 
 📂 Project Structure
-├── data/
-│   ├── raw_emails.csv
-│   ├── processed_emails.csv
-├── training/
-│   ├── train_classifier.py
-│   ├── train_urgency_model.py
-├── models/
-│   ├── email_classifier.pkl
-│   ├── urgency_model.pkl
-├── docs/
-│   ├── Kalyan_Agile_Doc
-├── README.md
-├── LICENSE
+
+<img width="452" height="736" alt="image" src="https://github.com/user-attachments/assets/899e088f-93d0-42e3-bec0-39005bc23f25" />
+
 
 **🚀 Milestone Progress**
 
